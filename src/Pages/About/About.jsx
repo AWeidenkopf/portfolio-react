@@ -1,6 +1,13 @@
 const About = () => {
   return (
-    <h1>About</h1>
+    <div>
+    <h1>About Ana Weidenkopf</h1>
+    <img src="Ana-Weidenkopf.jpeg" alt="Ana Weidenkopf"/>
+    <div>
+      <p>Software engineer with a passion for languages!</p>
+      <p></p>
+    </div>
+    </div>
   )
 }
 

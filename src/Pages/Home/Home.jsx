@@ -1,8 +1,12 @@
+import './Home.css'
 import '../../Components/NavBar/NavBar.css'
 
 const Home = () => {
   return ( 
-    <h1>Home Page</h1>
+    <div className='home-container'>
+    <h1>Ana Weidenkopf</h1>
+    <p>{` { Software Engineer } `}</p>
+    </div>
   )
 }
 
