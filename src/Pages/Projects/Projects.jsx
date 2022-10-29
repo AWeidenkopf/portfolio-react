@@ -1,6 +1,12 @@
+import ProjectsList from "../../Components/ProjectsList"
+import { projects } from "../../data/projects"
+
 const Projects = () => {
-  return ( 
-    <h1>Projects</h1>
+  return (
+    <div>
+      <h1>Projects</h1>
+      <ProjectsList projects={projects} />
+    </div>
   )
 }
 

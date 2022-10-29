@@ -5,6 +5,7 @@ import Contact from './Pages/Contact/Contact'
 import Resume from './Pages/Resume/Resume'
 import Projects from './Pages/Projects/Projects' 
 import NavBar from './Components/NavBar/NavBar'
+import ProjectDetails from './Pages/ProjectDetails'
 
 function App() {
   return (
@@ -33,6 +34,11 @@ function App() {
       <Route 
       path='projects' 
       element={<Projects />} 
+      />
+
+      <Route
+      path='projects/:projectDetails'
+      element={<ProjectDetails />}
       />
     </Routes>
     </>
