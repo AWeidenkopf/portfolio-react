@@ -1,13 +1,14 @@
-import { projects } from "../data/projects"
-import { findProject } from '../utilities/findProject'
-import { useLocation } from "react-router-dom"
+import { findProject } from '../../utilities/findProject'
+import { useParams } from "react-router-dom"
 
 const ProjectDetails = () => {
-  const location = useLocation()
-  const project = findProject(location.pathname)
-  return ( 
+  let  projectDetails  = useParams()
+
+  const project = findProject(projectDetails.projectDetails)
+  console.log('here', project)
+  console.log(project.image)
+  return (
     <div>
-      {console.log(project)}
       <h1>{project.title}</h1>
       <p>{project.description}</p>
       <img src={project.image} alt={project.title} />

@@ -5,7 +5,7 @@ const ProjectsList = ({projects}) => {
     <div>
     <ul>
     {projects.map(project => (
-      <li><ProjectPreview title={project.title} image={project.image}/></li>
+      <li><ProjectPreview project={project}/></li>
       ))}
       </ul>
     </div>

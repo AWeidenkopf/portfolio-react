@@ -2,18 +2,20 @@ import { Link } from "react-router-dom"
 import { hyphenateWords } from "../utilities/hyphenateWords"
 
 const ProjectPreview = (props) => {
+
+  const url = hyphenateWords(props.project.title)
   return ( 
     <div>
     <img 
-        src={props.image} 
-        alt={props.title}
+        src={props.project.image} 
+        alt={props.project.title}
     />
 
     <section>
         <h3>
-            {props.title}
+            {props.project.title}
         </h3>
-        <Link to={hyphenateWords(props.title)}>
+        <Link to={`/projects/${url}`}>
 					<button>
               Learn more
           </button>

@@ -5,7 +5,7 @@ function findProject(str) {
 
   const foundProject = projects.filter(project => hyphenateWords(project.title) === str)
 
-  return foundProject
+  return foundProject[0]
 }
 
 
