@@ -7,6 +7,8 @@ import Projects from './Pages/Projects/Projects'
 import NavBar from './Components/NavBar/NavBar'
 import ProjectDetails from './Pages/Projects/ProjectDetails'
 
+// import styles from './App.module.css'
+
 function App() {
   return (
     <>

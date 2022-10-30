@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import './NavBar.css'
+import styles from './NavBar.module.css'
 
 function NavBar() {
   return (
@@ -8,7 +8,7 @@ function NavBar() {
 
       <ul>
         <li>
-          <Link to='/about' > / / about </Link>
+          <Link to='/about' className={styles.about}> / / about </Link>
         </li>
 
         <li>

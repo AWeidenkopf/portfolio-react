@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+
+.homeContainer {
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/public/background1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  color: blue;
+
+}
+/* Photo by <a href="https://unsplash.com/@clairebrear?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claire Brear</a> on <a href="https://unsplash.com/s/photos/dark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+/* Photo by <a href="https://unsplash.com/@cadop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathew Schwartz</a> on <a href="https://unsplash.com/t/experimental?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+/* .home-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  position: absolute;
+} */
+.name {
+  margin-top: 60px;
+  color: white;
+  font-size: 45px;
+  display: inline;
+  width: 100%;
+}
+
+p{
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.arrow {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: -100px;
+  z-index: 2;
+}
+
+@media (min-width: 990px){
+  .homeContainer {
+  min-height: 1000px;
+  }
+
+  .name {
+    font-size: 150px;
+  }
+
+  p{
+    font-size: 30px;
+  }
+}

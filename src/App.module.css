@@ -1,0 +1,7 @@
+.body {
+  margin: 0;
+  background-image: url('../public/backrgound.jpg');
+  object-fit: none;
+  width: 80%;
+  height: 100vh;
+}
