@@ -1,13 +1,11 @@
-import ProjectPreview from "./ProjectPreview"
+import ProjectPreview from "./Projects/ProjectPreview"
 
-const ProjectsList = ({projects}) => {
-  return ( 
+const ProjectsList = ({ projects }) => {
+  return (
     <div>
-    <ul>
-    {projects.map(project => (
-      <li><ProjectPreview project={project}/></li>
+      {projects.map(project => (
+        <div><ProjectPreview project={project} /></div>
       ))}
-      </ul>
     </div>
   )
 }
