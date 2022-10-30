@@ -52,6 +52,19 @@ p{
   z-index: 2;
 }
 
+.about {
+  height: 900px;
+  background-color: rgb(31, 31, 33);
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media (min-width: 990px){
   .homeContainer {
   min-height: 1000px;

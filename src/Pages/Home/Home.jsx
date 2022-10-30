@@ -2,6 +2,7 @@ import styles from './Home.module.css'
 // import '../../Components/NavBar/NavBar.css'
 import { SlArrowDown } from 'react-icons/sl'
 import 'animate.css'
+import About from '../About/About'
 
 const Home = () => {
   return ( 
@@ -13,6 +14,9 @@ const Home = () => {
     </div>
     <div className={styles.arrow} >
     <SlArrowDown size={50} color='white' className={`animate__animated animate__pulse animate__infinite`}/>
+    </div>
+    <div id='about' className={styles.about}>
+    <About />
     </div>
     </>
   )

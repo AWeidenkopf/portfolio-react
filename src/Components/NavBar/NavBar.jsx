@@ -8,7 +8,7 @@ function NavBar() {
 
       <ul>
         <li>
-          <Link to='/about' className={styles.about}> / / about </Link>
+          <a href='#about' className={styles.about}> / / about </a>
         </li>
 
         <li>

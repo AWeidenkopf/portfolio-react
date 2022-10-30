@@ -1,0 +1,24 @@
+h2 {
+  margin-bottom: 60px;
+  margin-top: -60px;
+}
+
+.aboutContainer {
+  display: flex;
+  border: 2px solid rgb(130, 126, 126);
+  width: 1200px;
+  height: 350px;
+}
+
+.innerContainer {
+  border: 1px solid rgb(130, 126, 126);
+  width: 400px;
+  height: 350px;
+}
+
+.innerContainer img {
+  border-radius: 0;
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
