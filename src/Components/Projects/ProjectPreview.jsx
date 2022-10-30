@@ -13,7 +13,7 @@ const ProjectPreview = (props) => {
         alt={props.project.title}
       />
 
-      <section>
+      <div className={styles.footer}>
         <h3>
           {props.project.title}
         </h3>
@@ -22,7 +22,7 @@ const ProjectPreview = (props) => {
             Learn more
           </button>
         </Link>
-      </section>
+      </div>
     </div>
   )
 }

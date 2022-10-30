@@ -12,7 +12,7 @@ function NavBar() {
         </li>
 
         <li>
-        <Link to='/contact' > / / contact </Link>
+        <a href="#contact"> / / contact </a>
         </li>
 
         <li>
@@ -20,7 +20,7 @@ function NavBar() {
         </li>
 
         <li>
-        <Link to='/projects' > / / projects </Link>
+        <a href="#projects"> / / projects </a>
         </li>
       </ul>
     </nav>

@@ -19,7 +19,7 @@ const Home = () => {
     <div id='about' className={styles.about}>
     <About />
     </div>
-    <div>
+    <div id='projects'>
       <Projects />
     </div>
     </>
