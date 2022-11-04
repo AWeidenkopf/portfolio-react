@@ -37,4 +37,43 @@ a:hover {
 li{
   list-style: none;
   margin: 0 30px;
+  color: white;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.toggle {
+  visibility: hidden;
+}
+
+.resume:hover .toggle {
+  visibility: visible;
+  cursor: pointer;
+}
+.download{
+  position: absolute;
+  right: 26%;
+  top: 55px;
+  background-color: rgb(45, 44, 44);
+  width: 160px;
+  padding: 10px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.download p:hover {
+  position: absolute;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 3px;
+  border-bottom: 4px solid rgb(73, 66, 210);
+}
+
+.download:hover {
+  position: absolute;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px;
+  text-decoration: underline solid rgb(73, 66, 210) 4px;
 }
