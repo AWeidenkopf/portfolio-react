@@ -1,4 +1,20 @@
-.container {
+.projectsSection {
   background-color: rgb(31, 31, 33);
+  color: white;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.projectsSection h1 {
+  font-size: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }

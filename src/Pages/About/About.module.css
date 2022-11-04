@@ -30,7 +30,7 @@ h2 {
 }
 
 .innerContainer img:hover {
-  filter: sepia(300%) hue-rotate(150deg) saturate(90%);
+  filter: grayscale(100%)
 }
 
 .innerContainer p {
