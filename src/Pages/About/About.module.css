@@ -11,9 +11,14 @@ h2 {
 }
 
 .innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid rgb(130, 126, 126);
   width: 400px;
   height: 350px;
+  text-align: center;
+  position: relative;
 }
 
 .innerContainer img {
@@ -21,4 +26,91 @@ h2 {
   width: 400px;
   height: 350px;
   object-fit: cover;
+  object-position: 0 -50px;
+}
+
+.innerContainer img:hover {
+  filter: sepia(300%) hue-rotate(150deg) saturate(90%);
+}
+
+.innerContainer p {
+  width: fit-content;
+  display: inline;
+  line-height: 10px;
+  border-bottom: 8px solid rgb(73, 66, 210);
+  margin-top: 30px;
+}
+
+.innerContainer .icon {
+  margin-top: 20px;
+  display: inline;
+  width: 100%;
+}
+
+.innerContainer span {
+  margin-right: 80%;
+  font-size: 16px;
+  color: rgb(130, 126, 126);
+}
+
+.innerContainer ul li {
+  font-size: 18px;
+  border-left: 2px solid rgb(130, 126, 126);
+  margin-left: 18px;
+  padding-left: 30px;
+  width: 90%;
+  text-align: left;
+}
+
+.innerContainer ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.iconsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: 50%;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
