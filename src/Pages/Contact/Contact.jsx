@@ -9,7 +9,7 @@ const Contact = () => {
         <h2 className={styles.title}>Get in touch</h2>
         <ul>
           <li>I'm currently looking for my next opportunity.</li>
-          <li>If you either got the perfect job or just want to say hi,</li>
+          <li>If you either have the perfect job or just want to say hi,</li>
           <li>here's how to connect:</li>
         </ul>
         <div className={styles.contactLinks}>
