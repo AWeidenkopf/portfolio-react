@@ -52,8 +52,9 @@ li{
 }
 .download{
   position: absolute;
-  right: 26%;
-  top: 55px;
+  left: 68%;
+  margin-left: 50px;
+  top: 70%;
   background-color: rgb(45, 44, 44);
   width: 160px;
   padding: 10px;
@@ -76,4 +77,25 @@ li{
   font-weight: normal;
   padding: 10px;
   text-decoration: underline solid rgb(73, 66, 210) 4px;
+}
+
+@media (min-width: 990px) {
+  .download{
+    left: 65%;
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .download{
+    left: 62%;
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .download{
+    left: 60%;
+    margin-left: 60px;
+  }
 }
