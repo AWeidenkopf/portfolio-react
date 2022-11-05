@@ -46,7 +46,8 @@
 }
 
 .link {
-  margin: 0 10px;
+  margin: 0;
+  margin-right: 4.5px;
   padding: 0;
 }
 
@@ -61,4 +62,10 @@
 
 .footer p{
   font-size: 14px;
+}
+
+@media (min-width: 990px){
+  .link {
+    margin: 0 10px;
+  }
 }
