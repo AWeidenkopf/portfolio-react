@@ -29,10 +29,6 @@ h2 {
   object-position: 0 -50px;
 }
 
-.innerContainer img:hover {
-  filter: grayscale(100%)
-}
-
 .innerContainer p {
   width: fit-content;
   display: inline;
