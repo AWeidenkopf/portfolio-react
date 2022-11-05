@@ -2,6 +2,9 @@
   display: flex;
   justify-content: left;
 }
+.mobileNavigation {
+  display: none;
+}
 
 nav {
   display: flex;
@@ -77,6 +80,62 @@ li{
   font-weight: normal;
   padding: 10px;
   text-decoration: underline solid rgb(73, 66, 210) 4px;
+}
+
+@media (max-width: 990px) {
+  .navigation {
+    display: none;
+  }
+
+  .mobileNavigation {
+    display: flex;
+  }
+
+  .mobileNavigation .hamburger {
+    position: absolute;
+    right: 5%;
+    top:1vh;
+    cursor: pointer;
+  }
+
+  .navUl {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    position: absolute;
+    background-color: rgb(31, 30, 34);
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .navUl .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid rgb(66, 140, 210);
+    margin: 0;
+  }
+
+  .navUl .links:hover {
+    background-color: rgb(66, 140, 210);
+    color: white;
+  }
+
+  .navUl .links a:hover {
+    color: white;
+  }
+
+  .download{
+    border-top: 1px solid rgb(66, 140, 210);
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 100%;
+    text-align: center;
+  }
 }
 
 @media (min-width: 990px) {
