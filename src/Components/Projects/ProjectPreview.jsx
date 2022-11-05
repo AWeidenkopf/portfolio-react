@@ -18,7 +18,7 @@ const ProjectPreview = (props) => {
           {props.project.title}
         </h3>
         <Link to={`/projects/${url}`}>
-          <button>
+          <button onClick={() => props.setDetailsPage(true)}>
             Learn more
           </button>
         </Link>

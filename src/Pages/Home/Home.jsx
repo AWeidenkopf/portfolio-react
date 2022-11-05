@@ -6,7 +6,7 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 
-const Home = () => {
+const Home = ({setDetailsPage}) => {
   return (
     <>
       <div className={styles.homeContainer}>
@@ -20,7 +20,7 @@ const Home = () => {
         <About />
       </div>
       <div id='projects'>
-        <Projects />
+        <Projects setDetailsPage={setDetailsPage} />
       </div>
       <div id='contact'>
         <Contact/>
