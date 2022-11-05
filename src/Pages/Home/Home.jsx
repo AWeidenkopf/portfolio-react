@@ -4,6 +4,7 @@ import { SlArrowDown } from 'react-icons/sl'
 import 'animate.css'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
 
 const Home = () => {
   return (
@@ -20,6 +21,9 @@ const Home = () => {
       </div>
       <div id='projects'>
         <Projects />
+      </div>
+      <div id='contact'>
+        <Contact/>
       </div>
     </>
   )

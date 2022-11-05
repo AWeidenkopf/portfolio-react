@@ -1,4 +1,4 @@
-import ProjectPreview from "./Projects/ProjectPreview"
+import ProjectPreview from "./ProjectPreview"
 
 const ProjectsList = ({ projects }) => {
   return (

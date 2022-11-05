@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import Contact from './Pages/Contact/Contact'
-import Resume from './Pages/Resume/Resume'
 import NavBar from './Components/NavBar/NavBar'
 import ProjectDetails from './Pages/Projects/ProjectDetails'
 
@@ -20,11 +19,6 @@ function App() {
         <Route
           path='contact'
           element={<Contact />}
-        />
-
-        <Route
-          path='resume'
-          element={<Resume />}
         />
 
         <Route
