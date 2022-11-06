@@ -1,7 +1,3 @@
-.detailsPageNav{
-  display: flex;
-  justify-content: left;
-}
 .mobileNavigation {
   display: none;
 }
@@ -15,18 +11,18 @@ nav {
   height: 80px;
 }
 
-nav>.home{
+nav>.home {
   float: left;
   margin-left: 30px;
   margin-right: -100px;
 }
 
-ul{
+ul {
   display: flex;
   margin: 0 auto;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
   margin: 0 20px;
@@ -37,7 +33,7 @@ a:hover {
   font-weight: bold;
 }
 
-li{
+li {
   list-style: none;
   margin: 0 30px;
   color: white;
@@ -53,7 +49,8 @@ li{
   visibility: visible;
   cursor: pointer;
 }
-.download{
+
+.download {
   position: absolute;
   left: 68%;
   margin-left: 50px;
@@ -82,6 +79,11 @@ li{
   text-decoration: underline solid rgb(73, 66, 210) 4px;
 }
 
+nav .detailsPageNav {
+  width: 100%;
+  left: 0;
+}
+
 @media (max-width: 990px) {
   .navigation {
     display: none;
@@ -94,7 +96,7 @@ li{
   .mobileNavigation .hamburger {
     position: absolute;
     right: 5%;
-    top:1vh;
+    top: 1vh;
     cursor: pointer;
   }
 
@@ -109,7 +111,7 @@ li{
     padding: 0;
   }
 
-  .navUl .links{
+  .navUl .links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +130,7 @@ li{
     color: white;
   }
 
-  .download{
+  .download {
     border-top: 1px solid rgb(66, 140, 210);
     width: 100%;
     left: 0;
@@ -139,21 +141,21 @@ li{
 }
 
 @media (min-width: 990px) {
-  .download{
+  .download {
     left: 65%;
     margin-left: 60px;
   }
 }
 
 @media (min-width: 1300px) {
-  .download{
+  .download {
     left: 62%;
     margin-left: 60px;
   }
 }
 
 @media (min-width: 1600px) {
-  .download{
+  .download {
     left: 60%;
     margin-left: 60px;
   }

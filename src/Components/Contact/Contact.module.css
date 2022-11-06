@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -39,7 +39,7 @@
 }
 
 
-.contactLinks a:hover{
+.contactLinks a:hover {
   padding: 0;
   font-weight: normal;
   text-decoration: underline solid rgb(73, 66, 210) 4px;
@@ -51,20 +51,20 @@
   padding: 0;
 }
 
-.link:hover{
+.link:hover {
   padding: 0;
 }
 
-.footer{
+.footer {
   position: absolute;
   margin-bottom: -600px;
 }
 
-.footer p{
+.footer p {
   font-size: 14px;
 }
 
-@media (min-width: 990px){
+@media (min-width: 990px) {
   .link {
     margin: 0 10px;
   }

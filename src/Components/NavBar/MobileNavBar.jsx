@@ -4,7 +4,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 import { AiOutlineClose } from 'react-icons/ai'
 import styles from './NavBar.module.css'
 
-const MobileNav = () => {
+const MobileNav = ({ setDetailsPage, detailsPage }) => {
   const [open, setOpen] = useState(false)
 
   const hamburgerIcon = <AiOutlineMenu

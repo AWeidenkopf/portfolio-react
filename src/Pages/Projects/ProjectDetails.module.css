@@ -45,6 +45,12 @@
   font-weight: bold;
 }
 
+@media (min-width: 600px) {
+  .projectpage {
+    height: 1000px;
+  }
+}
+
 @media (min-width: 990px) {
 
   .projectpage h1 {
@@ -59,10 +65,6 @@
     width: 500px;
   }
 
-  /* .projectpage button {
-    margin-bottom: 0;
-  } */
-
   .imageContainer {
     display: flex;
   }
@@ -70,7 +72,7 @@
 }
 
 @media (min-width: 1024px) {
-    .projectpage {
+  .projectpage {
     height: 950px;
   }
 }

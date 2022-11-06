@@ -2,11 +2,11 @@ import styles from './Home.module.css'
 // import '../../Components/NavBar/NavBar.css'
 import { SlArrowDown } from 'react-icons/sl'
 import 'animate.css'
-import About from '../About/About'
-import Projects from '../Projects/Projects'
-import Contact from '../Contact/Contact'
+import About from '../../Components/About/About'
+import Projects from '../../Components/Projects/Projects'
+import Contact from '../../Components/Contact/Contact'
 
-const Home = ({setDetailsPage}) => {
+const Home = ({ setDetailsPage }) => {
   return (
     <>
       <div className={styles.homeContainer}>
@@ -23,7 +23,7 @@ const Home = ({setDetailsPage}) => {
         <Projects setDetailsPage={setDetailsPage} />
       </div>
       <div id='contact'>
-        <Contact/>
+        <Contact />
       </div>
     </>
   )

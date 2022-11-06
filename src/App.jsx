@@ -4,8 +4,6 @@ import NavBar from './Components/NavBar/NavBar'
 import ProjectDetails from './Pages/Projects/ProjectDetails'
 import { useState } from 'react'
 
-// import styles from './App.module.css'
-
 function App() {
 
   const [detailsPage, setDetailsPage] = useState(false)
@@ -13,7 +11,7 @@ function App() {
 
   return (
     <>
-      <NavBar detailsPage={detailsPage} setDetailsPage={setDetailsPage}/>
+      <NavBar detailsPage={detailsPage} setDetailsPage={setDetailsPage} />
       <Routes>
         <Route
           path='/'
@@ -22,7 +20,7 @@ function App() {
 
         <Route
           path='projects/:projectDetails'
-          element={<ProjectDetails/>}
+          element={<ProjectDetails />}
         />
       </Routes>
     </>

@@ -1,11 +1,11 @@
 import MobileNav from "./MobileNavBar";
 import NormalNav from "./NormalNav";
 
-const NavBar = () => {
-  return ( 
+const NavBar = ({ setDetailsPage, detailsPage }) => {
+  return (
     <>
-    <NormalNav />
-    <MobileNav />
+      <NormalNav detailsPage={detailsPage} setDetailsPage={setDetailsPage} />
+      <MobileNav detailsPage={detailsPage} setDetailsPage={setDetailsPage} />
     </>
   )
 }

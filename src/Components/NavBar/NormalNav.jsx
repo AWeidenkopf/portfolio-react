@@ -1,10 +1,10 @@
 import NavLinks from "./NavLinks"
 import styles from './NavBar.module.css'
 
-const NormalNav = () => {
-  return ( 
+const NormalNav = ({ setDetailsPage, detailsPage }) => {
+  return (
     <nav className={styles.navigation}>
-    <NavLinks />
+      <NavLinks detailsPage={detailsPage} setDetailsPage={setDetailsPage} />
     </nav>
   )
 }
