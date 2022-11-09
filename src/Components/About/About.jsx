@@ -27,12 +27,12 @@ const About = () => {
           </span>
           <ul>
             <li>A software engineer with background in</li>
-            <li>project managment that loves languages!</li>
-            <li>I have been enrolled in language class</li>
-            <li>every year of my life since school. I speak</li>
-            <li>Portuguese, English, Spanish, some German,</li>
-            <li>JavaScript, Python and looking to learn</li>
-            <li>JAVA. My passion is what fuels me, making</li>
+            <li>project management that loves languages!</li>
+            <li>My interest in languages makes coding</li>
+            <li>a real joy. I love learning each language's</li>
+            <li>syntax, rules and flexibility just like I love</li>
+            <li>learning the idiosyncrasy of spoken languages.</li>
+            <li>My passion is what fuels me, making</li>
             <li>me one always eager learner that works to </li>
             <li>create software that executes flawlessly.</li>
           </ul>

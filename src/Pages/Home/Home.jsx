@@ -14,7 +14,7 @@ const Home = ({ setDetailsPage }) => {
         <p>{` { Software Developer } `}</p>
       </div>
       <div className={styles.arrow} >
-        <a href='#about'><SlArrowDown size={50} color='white' className={`animate__animated animate__pulse animate__infinite`} /></a>
+        <a href='#about'><SlArrowDown size={50} className={`animate__animated animate__pulse animate__infinite`} /></a>
       </div>
       <div id='about' className={styles.about}>
         <About />
