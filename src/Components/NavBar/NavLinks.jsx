@@ -1,19 +1,21 @@
 import { Link } from "react-router-dom"
 import styles from './NavBar.module.css'
-import { SlArrowDown } from 'react-icons/sl'
+import { SlArrowDown, SlArrowLeft } from 'react-icons/sl'
 import { useState } from "react"
 
 function NavLinks({ detailsPage, setDetailsPage, closeMobileMenu, isMobile }) {
   const [open, setOpen] = useState(false)
 
-
+// const mobileAndDetails = isMobile && detailsPage;
   return (
     <>
       {detailsPage
-        ? <Link to='/' onClick={() => setDetailsPage(false)} className={styles.detailsPageNav}> Go back </Link>
+        ? <>
+            <Link to='/' onClick={() => setDetailsPage(false)} className={styles.detailsPageNav}> <SlArrowLeft size={30} color='white' className={styles.goBackArrow} onMouseOver={({target})=>target.style.color="rgb(135, 182, 226)"} onMouseOut={({target})=>target.style.color="white"}/> Go back </Link>
+          </>
         : <>
-          {isMobile ?
-            <ul className={styles.navUl}>
+          {isMobile?
+        <ul className={styles.navUl}>
               <li className={styles.links} onClick={() => closeMobileMenu()}>
                 <a href='#about' className={styles.about}> / / about </a>
               </li>
@@ -32,7 +34,7 @@ function NavLinks({ detailsPage, setDetailsPage, closeMobileMenu, isMobile }) {
                 : null}
             </ul>
             : <>
-              <Link to='/' className="home" > Ana Weidenkopf </Link>
+              {/* <Link to='/' className="home" > Ana Weidenkopf </Link> */}
               <ul className={styles.navUl}>
                 <li className={styles.links}>
                   <a href='#about' className={styles.about}> / / about </a>
@@ -52,7 +54,9 @@ function NavLinks({ detailsPage, setDetailsPage, closeMobileMenu, isMobile }) {
                   : null}
               </ul>
             </>
+          
           }
+        
           {/* {isMobile && detailsPage
             ? <Link to='/' onClick={() => setDetailsPage(false)} className={styles.links}> Go back </Link>
           : null} */}
