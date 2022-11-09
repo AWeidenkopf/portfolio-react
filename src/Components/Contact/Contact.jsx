@@ -18,7 +18,7 @@ const Contact = () => {
         <a href='mailto:aweidenkopf@gmail.com'><FaAt className={styles.link} />Email</a>
       </div>
       <div className={styles.footer}>
-        <p >Whoops! I almost forgot to say: 'Hello World'</p>
+        <p>Oops! Almost forgot to say: 'Hello World'</p>
       </div>
     </div>
   )
