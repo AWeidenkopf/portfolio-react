@@ -9,6 +9,7 @@ import { FaReact } from 'react-icons/fa'
 import { SiExpress, SiNodedotjs, SiMongodb, SiPython, SiPostgresql } from 'react-icons/si'
 import { DiDjango } from 'react-icons/di'
 
+
 const About = () => {
   return (
     <div className='about-container'>

@@ -17,7 +17,7 @@
   margin: 0;
   text-align: center;
   color: blue;
-
+  z-index: 1;
 }
 
 /* Photo by <a href="https://unsplash.com/@clairebrear?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claire Brear</a> on <a href="https://unsplash.com/s/photos/dark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -59,6 +59,17 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.upArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(135, 182, 226);
+  width: 60px;
+  position: fixed;
+  bottom: 40px;
+  margin-left: 93%;
 }
 
 

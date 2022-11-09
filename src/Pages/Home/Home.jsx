@@ -5,11 +5,13 @@ import 'animate.css'
 import About from '../../Components/About/About'
 import Projects from '../../Components/Projects/Projects'
 import Contact from '../../Components/Contact/Contact'
+// import { SlArrowUp } from 'react-icons/sl'
 
 const Home = ({ setDetailsPage }) => {
+
   return (
     <>
-      <div className={styles.homeContainer}>
+      <div id='home' className={styles.homeContainer}>
         <h1 className={styles.name}>Ana Weidenkopf</h1>
         <p>{` { Software Developer } `}</p>
       </div>
@@ -25,6 +27,11 @@ const Home = ({ setDetailsPage }) => {
       <div id='contact'>
         <Contact />
       </div>
+      {/* <a href='#home'>
+      <div className={styles.upArrow}>
+      <SlArrowUp size={50} color='white'/>
+      </div>
+      </a> */}
     </>
   )
 }
