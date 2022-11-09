@@ -156,21 +156,21 @@ nav .detailsPageNav {
 
 @media (min-width: 990px) {
   .download {
-    left: 65%;
+    left: 60%;
     margin-left: 60px;
   }
 }
 
 @media (min-width: 1300px) {
   .download {
-    left: 62%;
+    left: 58%;
     margin-left: 60px;
   }
 }
 
 @media (min-width: 1600px) {
   .download {
-    left: 60%;
+    left: 57%;
     margin-left: 60px;
   }
 }
