@@ -45,16 +45,20 @@
   font-weight: bold;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   .projectpage {
-    height: 1000px;
+    min-height: 1000px;
   }
 }
 
 @media (min-width: 990px) {
 
-  .projectpage h1 {
-    margin-top: 60px;
+  /* .projectpage h1 {
+    margin-top: 180px;
+  } */
+
+  .projectpage {
+    height: 100%;
   }
 
   .projectpage img {
