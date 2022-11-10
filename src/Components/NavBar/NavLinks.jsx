@@ -19,11 +19,11 @@ function NavLinks({ detailsPage, setDetailsPage, closeMobileMenu, isMobile }) {
           </li>
 
           <li className={styles.links} onClick={() => closeMobileMenu()}>
-            <a href="#contact"> / / contact </a>
+            <a href="#projects"> / / projects </a>
           </li>
 
           <li className={styles.links} onClick={() => closeMobileMenu()}>
-            <a href="#projects"> / / projects </a>
+            <a href="#contact"> / / contact </a>
           </li>
 
           <li className={`${styles.resume} ${styles.links}`}> / / resume <SlArrowDown size={10} color='white' className={styles.toggle} onClick={() => setOpen(!open)} /></li>
@@ -40,11 +40,11 @@ function NavLinks({ detailsPage, setDetailsPage, closeMobileMenu, isMobile }) {
               </li>
 
               <li className={styles.links}>
-                <a href="#contact"> / / contact </a>
+                <a href="#projects"> / / projects </a>
               </li>
 
               <li className={styles.links}>
-                <a href="#projects"> / / projects </a>
+                <a href="#contact"> / / contact </a>
               </li>
 
               <li className={`${styles.resume} ${styles.links}`}> / / resume <SlArrowDown size={10} color='white' className={styles.toggle} onClick={() => setOpen(!open)} /></li>

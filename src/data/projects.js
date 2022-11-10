@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Giftology',
-    description: 'Gifting doesn’t have to be stressful. Giftology is here to help you gift with confidence! A group project where I wore the hat of the software lead, being the main responsible for the scrum management, overwing the back and front end, making sure things happened as planned or jumping in and helping my teammates to communicate their roadblockers. Between that, I was responsible for implementing the social media aspect of our application, and a lot of the design.',
+    description: "Gifting doesn’t have to be stressful. Giftology is here to help you gift with confidence! A group project where I wore the hat of the software lead, being the main responsible for the scrum management overwing the back and front end, making sure things happened as planned, or jumping in and helping my teammates to communicate and figure out any roadblocks. Between that, I was responsible for implementing the social media aspect of our application, and a lot of the design.",
     image: '/images/project-images/giftology.png',
     image2: '/images/project-images/giftology-2.png',
     image3: '/images/project-images/giftology-3.png',
