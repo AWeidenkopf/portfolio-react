@@ -5,9 +5,16 @@ import { AiOutlineHtml5 } from 'react-icons/ai'
 import { SiCsswizardry } from 'react-icons/si'
 import { IoLogoJavascript } from 'react-icons/io'
 import { TbBrandBootstrap } from 'react-icons/tb'
-import { FaReact } from 'react-icons/fa'
+import { FaReact, FaRegHeart, FaPeopleArrows, FaPeopleCarry, FaBatteryFull} from 'react-icons/fa'
 import { SiExpress, SiNodedotjs, SiMongodb, SiPython, SiPostgresql } from 'react-icons/si'
 import { DiDjango } from 'react-icons/di'
+import { GiSkills } from 'react-icons/gi'
+import { SlCalender } from 'react-icons/sl'
+import { BsChatDots } from 'react-icons/bs'
+import { GiEarthAmerica, GiArtilleryShell } from 'react-icons/gi'
+import { RiHandHeartLine } from 'react-icons/ri'
+
+
 
 
 const About = () => {
@@ -16,7 +23,55 @@ const About = () => {
       <h2>About me</h2>
       <div className={styles.aboutContainer}>
         <div className={styles.innerContainer}>
-          <img src="/images/Ana-Weidenkopf.jpeg" alt="Ana Weidenkopf" />
+          <GiSkills className={styles.icon}/>
+          <p>People Skills</p>
+          <div className={styles.iconsDiv}>
+            <div className={styles.tooltip}>
+              <SlCalender size='30' />
+              <span className={styles.tooltiptext}>Planning</span>
+            </div>
+            <div className={styles.tooltip}>
+              <BsChatDots size='30' />
+              <span className={styles.tooltiptext}>Communication</span>
+            </div>
+            <div className={styles.tooltip}>
+              <GiEarthAmerica size='30' />
+              <span className={styles.tooltiptext}>Diplomacy</span>
+            </div>
+            <div className={styles.tooltip}>
+              <GiArtilleryShell size='30' />
+              <span className={styles.tooltiptext}>Creativity</span>
+            </div>
+            <div className={styles.tooltip}>
+              <FaRegHeart size='30' />
+              <span className={styles.tooltiptext}>Passion</span>
+            </div>
+            <div className={styles.tooltip}>
+              <FaPeopleArrows size='30' />
+              <span className={styles.tooltiptext}>Social Assertiveness</span>
+            </div>
+            <div className={styles.tooltip}>
+              <FaPeopleCarry size='30' />
+              <span className={styles.tooltiptext}>Team Work</span>
+            </div>
+            <div className={styles.tooltip}>
+              <FaBatteryFull size='30' />
+              <span className={styles.tooltiptext}>Self-motivation</span>
+            </div>
+            <div className={styles.tooltip}>
+              <RiHandHeartLine size='30' />
+              <span className={styles.tooltiptext}>Conflict resolution</span>
+            </div>
+            {/* <div className={styles.tooltip}>
+              <DiDjango size='30' />
+              <span className={styles.tooltiptext}>Django</span>
+            </div>
+            <div className={styles.tooltip}>
+              <SiPostgresql size='30' />
+              <span className={styles.tooltiptext}>PostgreSQL</span>
+            </div> */}
+          </div>
+          {/* <img src="/images/Ana-Weidenkopf.jpeg" alt="Ana Weidenkopf" /> */}
 
 
         </div>
