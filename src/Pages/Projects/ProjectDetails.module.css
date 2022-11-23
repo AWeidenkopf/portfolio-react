@@ -77,6 +77,6 @@
 
 @media (min-width: 1024px) {
   .projectpage {
-    height: 950px;
+    height: 100%;
   }
 }
